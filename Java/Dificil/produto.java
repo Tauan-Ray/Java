@@ -1,4 +1,4 @@
-package Dificil;
+package dificil;
 
 public class produto {
     private String nome;

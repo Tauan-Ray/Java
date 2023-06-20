@@ -1,4 +1,4 @@
-package Dificil;
+package dificil;
 
 import java.util.Scanner;
 
