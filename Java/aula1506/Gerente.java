@@ -1,11 +1,19 @@
 package aula1506;
 
 public class Gerente extends Funcionario{
-    private int aumento = 1500;
+    private int aumento;
 
     @Override
     public double getBonificacao() {
-        return this.getBonificacao() + aumento; 
+        return this.getSalario() + aumento; 
+    }
+
+    public int getAumento() {
+        return aumento;
+    }
+
+    public void setAumento(int aumento) {
+        this.aumento = aumento;
     }
 
     
